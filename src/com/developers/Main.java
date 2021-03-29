@@ -6,5 +6,10 @@ public class Main {
 	// Testing git
         System.out.println("Hello World");
 
+        Biodata biodata = new Biodata();
+        biodata.setFirstname("Adewale");
+
+        System.out.println(biodata.getFirstname());
+
     }
 }
